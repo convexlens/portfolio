@@ -221,8 +221,34 @@ img {
 }
 
 /* ===== Projects ===== */
+.projects .section-title {
+  color: #000;
+}
+
 .projects {
   padding: 5rem 0;
+  background: #f2f2f5;
+}
+
+.projects .project-card {
+  background: #fff;
+  border-color: rgba(0, 0, 0, 0.08);
+}
+
+.projects .project-body h3 {
+  color: #1a1a1a;
+}
+
+.projects .project-body p {
+  color: #333;
+}
+
+.projects .project-link {
+  color: #b8860b;
+}
+
+.projects .project-link:hover {
+  color: #8b6914;
 }
 
 .project-grid {
@@ -247,8 +273,27 @@ img {
 
 .project-image {
   height: 200px;
-  background: linear-gradient(135deg, var(--accent, #3d405b) 0%, var(--bg-elevated) 100%);
-  opacity: 0.9;
+  background-size: cover;
+  background-position: center;
+  background-color: var(--bg-elevated);
+}
+
+/* 웹 애플리케이션: 코딩 / 개발 환경 */
+.project-image-1 {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.25)),
+    url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800');
+}
+
+/* 모바일 대시보드: 데이터 시각화 */
+.project-image-2 {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.25)),
+    url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800');
+}
+
+/* 브랜드 랜딩 페이지: 웹 디자인 */
+.project-image-3 {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.25)),
+    url('https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=800');
 }
 
 .project-body {
